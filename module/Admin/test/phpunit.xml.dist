@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit bootstrap="Bootstrap.php">
+    <php>
+        <env name="ZF2_PATH" value="/home/gonza/workspace/GullkApplication/vendor/zendframework/zendframework/library/">
+        </env>
+    </php>
+    <testsuites>
+
+        <testsuite name="gullkadmin">
+            <directory>./</directory>
+        </testsuite>
+
+    </testsuites>
+
+</phpunit>
